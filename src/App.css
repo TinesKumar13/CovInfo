@@ -1,0 +1,223 @@
+* {
+  margin: 0;
+}
+
+
+
+
+
+.rotate {
+  animation: rotation 4s;
+}
+
+.linear {
+  animation-timing-function: linear;
+}
+
+.infinite {
+  animation-iteration-count: infinite;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+.app {
+
+  padding: 20px;
+  
+  
+}
+
+.app__dropdown {
+  background: white;
+  width: 550px;
+  border-radius: 30px;
+
+  
+
+}
+
+.app__header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  justify-content: space-between;
+  
+}
+
+.app__header > h1 {
+  color: #db7093;
+  font-size: 9rem;
+  padding-right: 100px;
+  font-family: 'Black Ops One', cursive;
+}
+
+.app__stats {
+  display: flex;
+  justify-content: space-between;
+}
+
+.app__left {
+  flex: 0.9;
+}
+
+.app__information > h3 {
+  color: #6a5d5d;
+  font-weight: 400;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.app__information > h3:last-of-type {
+  margin-top: 1rem;
+}
+
+.app__title{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+.app__chart{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  
+}
+
+
+.app__right{
+  margin-top: 20px;
+ 
+}
+
+.night{
+ 
+ cursor: pointer;
+}
+
+
+.contact{
+    
+
+
+  margin-top: 30px;
+  
+  padding-left: 1200px;
+}
+
+
+
+
+@media (max-width: 600px) {
+  .app {
+ 
+   justify-content: center;
+   align-items: center;
+   
+  }
+
+.icon{
+  padding-top: 10px;
+}
+
+  .app__header {
+    color: #db7093;
+    font-size: 4rem;
+    padding-left: 20px;
+    flex-direction: column !important;
+    
+  }
+
+  .app__header > h1 {
+    color: #db7093;
+    font-size: 5rem;
+    padding-right: 100px;
+  }
+  
+  .app__dropdown {
+    background-color: white;
+    width: 330px;
+    justify-content: center;
+    border-radius: 30px;
+    padding-left:80px;
+ 
+  
+    
+  
+  }
+
+  .app__right{
+    margin-top: 20px;
+    flex-direction: column;
+    
+   
+  }
+
+  .night{
+    padding-left: 40px;
+    cursor: pointer;
+    margin-top: 30px;
+
+    
+   }
+   
+   .app__stats{
+
+    flex-direction: column;
+    
+    width:350px;
+    padding-left:10px;
+
+    
+    
+   }
+
+
+ .second__Child{
+   margin-top: 30px;
+}
+ 
+
+
+.third__Child{
+   margin-top: 30px;
+}
+ 
+.news{
+  margin-bottom: 40px;
+  
+}
+
+.topics{
+  margin-bottom: 40px;
+}
+  .cures{
+    margin-top: 40px;
+  }
+
+  .chart{
+    height: 300px;
+  }
+
+
+
+  .contact{
+
+    margin-top: 30px;
+    border-radius: 30px;
+    padding-left: 110px;
+    
+  }
+  
+}
+
+
+
+
+

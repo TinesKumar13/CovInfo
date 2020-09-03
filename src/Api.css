@@ -1,0 +1,88 @@
+
+
+.api__section{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    height: 400px;
+    background-color:white;
+    padding: 1rem;
+    border-radius: 20px;
+    margin-top: 16px;
+    box-shadow: 0px 10px 1px #ddd, 0 10px 20px #ccc;
+   
+  }
+  .news{
+    height:400px;
+    width: 320px;
+    overflow:scroll;
+
+  }
+  
+  .topics{
+    height:400px;
+    width: 320px;
+    overflow:scroll;
+  
+  
+  }
+  
+  .cures{
+    height:400px;
+    width: 320px;
+    overflow:scroll;
+  }
+  
+  .position__News{
+    margin-bottom: 8px;
+  }
+  
+  .position__Topics{
+    margin-bottom: 8px;
+  }
+  
+  .position__Cures{
+    margin-bottom: 8px;
+  }
+
+  @media (max-width: 736px) {
+
+    
+    .api__section{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 30px;
+        height: 500px;
+        background-color:white;
+        padding: 1rem;
+        border-radius: 20px;
+        margin-top: 16px;
+        box-shadow: 0px 10px 1px #ddd, 0 10px 20px #ccc;
+       
+      }
+
+      .news{
+        height:400px;
+        width: 320px;
+        overflow:scroll;
+      }
+      
+      .topics{
+        height:400px;
+        width: 320px;
+        overflow:scroll;
+      
+      
+      }
+      
+      .cures{
+        height:400px;
+        width: 320px;
+        overflow:scroll;
+      }
+
+      
+      
+  
+    }
